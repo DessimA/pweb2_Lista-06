@@ -2,7 +2,7 @@ function somaDosPositivos(n1, n2, n3 ,n4, n5){
     let arr = [n1,n2,n3,n4,n5];
     let soma = 0;    
 
-    document.write("Entrada: "+ arr);
+    document.write("Entrada: "+ arr.join(",  "));
 
     for(i=0; i < arr.length; i++){
        if (arr[i] > 0)

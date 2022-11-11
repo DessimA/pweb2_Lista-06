@@ -1,7 +1,7 @@
 let mediaDoArray = [10,5,5,5,3,9];
 let soma = 0;
 
-document.write("Entrada: " + mediaDoArray);
+document.write("Entrada: " + mediaDoArray.join(",  "));
 
 for (i = 0; i < mediaDoArray.length; i++){
     soma += mediaDoArray[i];

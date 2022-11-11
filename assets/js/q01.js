@@ -5,5 +5,5 @@ for (i = 0; i < arr.length; i++) {
     arr2[i] = arr[i]*arr[i]; 
   } 
 
-document.write("Entrada: " + arr);
-document.write("</br>Saída: " + arr2);
+document.write("Entrada: " + arr.join(",  "));
+document.write("</br>Saída: " + arr2.join(",  "));
