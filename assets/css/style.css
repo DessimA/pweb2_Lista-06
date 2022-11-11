@@ -4,10 +4,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;    
 }
 
-body{
-    background-color: darkgray;
-}
-
 footer {
     padding: 20px;
     margin: 15px;
@@ -29,6 +25,6 @@ footer {
 #questions {
     align-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0fr 0fr 0fr;
     list-style: none;     
 }
