@@ -3,7 +3,7 @@ let soma = 0;
 
 document.write("Entrada: " + mediaDoArray.join(",  "));
 
-for (i = 0; i < mediaDoArray.length; i++){
+for (let i in mediaDoArray){
     soma += mediaDoArray[i];
 }
 

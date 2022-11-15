@@ -1,4 +1,4 @@
-let arrFatorial = [4, 7, 9, 1, 5];
+let arrFatorial = [4, 7, 9];
 let arrResultadoFatorial= [];
 
 function factorialize(num) {
@@ -12,7 +12,7 @@ function factorialize(num) {
   }
 
 
-for(i = 0; i < arrFatorial.length; i++){
+for(let i in arrFatorial){
 
   arrResultadoFatorial[i] = factorialize(arrFatorial[i]);
 

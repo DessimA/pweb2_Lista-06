@@ -4,9 +4,9 @@ function somaDosPositivos(n1, n2, n3 ,n4, n5){
 
     document.write("Entrada: "+ arr.join(",  "));
 
-    for(i=0; i < arr.length; i++){
-       if (arr[i] > 0)
-        soma += arr[i];
+    for(let i of arr){
+       if (i > 0)
+        soma += i;
     }
     return soma;
 }
